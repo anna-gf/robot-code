@@ -6,13 +6,13 @@ Test Setup  Common.Begin Web Test
 Test Teardown  Common.End Web Test
 
 *** Variables ***
-${BROWSER} =  chrome
+${BROWSER} =  firefox
 ${START_URL} =  https://www.amazon.com
 ${SEARCH_TERM} =  Ferrari 458
 
 *** Test Cases ***
 Logged out user can search for products
-    [Tags]  Current
+    [Tags]  Current     search
     Amazon.Search for Products
 
 Logged out user can view a product
