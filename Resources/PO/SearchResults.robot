@@ -7,4 +7,4 @@ Verify Search Completed
 
 Click Product Link
     [Documentation]  Clicks on the first product in the search results list
-    Click Link  partial link:Ferrari Bburago
+    Click Link  partial link:Bburago
